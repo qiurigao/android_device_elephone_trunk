@@ -33,22 +33,22 @@ TARGET_BOOTANIMATION_SIZE := 640x362
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/elephone/trunk/trunk.mk)
+$(call inherit-product, device/vivo/y55/y55.mk)
 
 # Must define platform variant before including any common things
-TARGET_BOARD_PLATFORM_VARIANT := msm8916
+TARGET_BOARD_PLATFORM_VARIANT := msm8937
 
 # Override AOSP build properties
-PRODUCT_NAME := omni_trunk
-PRODUCT_DEVICE := trunk
-PRODUCT_BRAND := elephone
-PRODUCT_MODEL := trunk
-PRODUCT_MANUFACTURER := elephone
+PRODUCT_NAME := omni_y55
+PRODUCT_DEVICE := y55
+PRODUCT_BRAND := vivo
+PRODUCT_MODEL := y55
+PRODUCT_MANUFACTURER := vivo
 
-PRODUCT_GMS_CLIENTID_BASE := android-elephone
+PRODUCT_GMS_CLIENTID_BASE := android-vivo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=trunk
+    PRODUCT_NAME=y55
 # \
-#    BUILD_FINGERPRINT=elephone/trunk/trunk:7.1.1/N4F26O/3587886:user/release-keys \
-#    PRIVATE_BUILD_DESC="trunk-user 7.1.1 N4F26O 3587886 release-keys"
+ #   BUILD_FINGERPRINT="vivo/PD1613/PD1613:6.0.1/MMB29M/compiler05020149:user/release-keys" \
+  #  PRIVATE_BUILD_DESC="vivo-user 6.0.1 MMB29M Y55 release-keys"
