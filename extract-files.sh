@@ -17,8 +17,8 @@
 
 #set -e
 
-export DEVICE=trunk
-export VENDOR=elephone
+export DEVICE=y55
+export VENDOR=vivo
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
