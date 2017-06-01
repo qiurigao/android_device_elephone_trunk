@@ -1,3 +1,3 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/trunk.mk \
-    $(LOCAL_DIR)/omni_8937.mk
+    $(LOCAL_DIR)/y55.mk \
+    $(LOCAL_DIR)/omni_y55.mk
