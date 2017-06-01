@@ -1,6 +1,5 @@
 # ADSP (Crackling)
 bin/adsprpcd
-vendor/lib64/libadsprpc.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
 
@@ -32,60 +31,15 @@ bin/hci_qcomm_init
 bin/mm-qcamera-daemon
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegehw.so
-vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera2_vpe_module.so
-vendor/lib/libmmcamera2_wnr_module.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_hdr_lib.so
-vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_wavelet_lib.so
-vendor/lib/libmmipl.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
-vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
 # Camera (Trunk)
 vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera_gc2355_front_1lane.so
-vendor/lib/libmmcamera_s5k4h5_8916_back.so
-vendor/lib/libactuator_dw9714.so
-vendor/lib/libactuator_dw9714_camcorder.so
-vendor/lib/libactuator_dw9714_camera.so
-vendor/lib/libchromatix_gc2355_front_1lane_common.so
-vendor/lib/libchromatix_gc2355_front_1lane_preview.so
-vendor/lib/libchromatix_s5k4h5_8916_back_common.so
-vendor/lib/libchromatix_s5k4h5_8916_back_default_video.so
-vendor/lib/libchromatix_s5k4h5_8916_back_hfr_120fps.so
-vendor/lib/libchromatix_s5k4h5_8916_back_hfr_60fps.so
-vendor/lib/libchromatix_s5k4h5_8916_back_hfr_90fps.so
-vendor/lib/libchromatix_s5k4h5_8916_back_liveshot.so
-vendor/lib/libchromatix_s5k4h5_8916_back_preview.so
-vendor/lib/libchromatix_s5k4h5_8916_back_snapshot.so
-vendor/lib/libchromatix_s5k4h5_8916_back_video_hd.so
-
-# Camera firmware (Crackling)
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
 
 # QSEE (Crackling)
 bin/qseecomd
-lib/libdrmdecrypt.so
 
 # GPS (Crackling)
 -lib/libloc_api_v02.so
@@ -129,8 +83,7 @@ etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
 
 # Media (Crackling)
-lib/libOmxVdecHevc.so
-vendor/lib/libHevcSwDecoder.so
+lib/libOmxVdec.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmmosal.so
 vendor/lib/libmm-color-convertor.so
@@ -140,14 +93,7 @@ vendor/lib/libOmxQcelp13Dec.so
 
 # Perf (Crackling)
 vendor/bin/perfd
-vendor/lib64/libqti-perfd-client.so
 vendor/lib/libqti-perfd-client.so
-
-# Postprocessing (Crackling)
-bin/mm-pp-daemon
-
-# Power (Crackling)
-bin/vm_bms
 
 # Qualcomm framework (Crackling)
 bin/irsc_util
@@ -174,16 +120,13 @@ vendor/lib/libsmemlog.so
 
 
 # Radio (Crackling)
--app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
 bin/radish
 bin/rmt_storage
-etc/permissions/com.qrd.wappush.xml
-etc/permissions/qcnvitems.xml
-etc/permissions/qcrilhook.xml
--framework/qcnvitems.jar
+
 -framework/qcrilhook.jar
 vendor/lib/libmdmdetect.so
 
@@ -210,10 +153,7 @@ vendor/lib/libTimeService.so
 
 # WiDevine (Crackling)
 vendor/lib/libwvdrm_L3.so
-vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L3.so
-vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # WLAN (Crackling)
-lib/libwcnss_qmi.so
