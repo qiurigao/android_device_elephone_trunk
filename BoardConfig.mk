@@ -15,7 +15,7 @@
 
 #FORCE_32_BIT := true
 
--include device/qcom/msm8916-common/BoardConfigCommon.mk
+-include device/qcom/msm8937-common/BoardConfigCommon.mk
 
 include device/elephone/trunk/board/*.mk
 
