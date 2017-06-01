@@ -19,7 +19,7 @@
 
 include device/elephone/trunk/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/elephone/trunk/board-info.txt
+TARGET_BOARD_INFO_FILE := device/vivo/y55/board-info.txt
 
 # inherit from the proprietary version
--include vendor/elephone/trunk/BoardConfigVendor.mk
+-include vendor/vivo/y55/BoardConfigVendor.mk
